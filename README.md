@@ -27,3 +27,7 @@ This repo is licensed under the MIT license. Click on the badge above for more i
 If there is any questions feel free to contact me through [GitHub](https://github.com/johnnyowen)
 
 ## Demo
+
+https://johnnyowen.github.io/react-portfolio-john/
+
+![Screenshot 2023-08-21 135636](https://github.com/johnnyowen/react-portfolio-john/assets/127053240/96fb0cd3-9280-4b09-b5cd-dc678eb0e3d6)
