@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-john/static/css/main.41a91f8c.css",
+    "main.js": "/react-portfolio-john/static/js/main.5fce2805.js",
+    "static/media/Horiseon-Code-Refactor.png": "/react-portfolio-john/static/media/Horiseon-Code-Refactor.c3f0154bbf09f82d6333.png",
+    "static/media/Buonos-Pizza.png": "/react-portfolio-john/static/media/Buonos-Pizza.2a7a0129b66e67556ab8.png",
+    "static/media/Weather-App.png": "/react-portfolio-john/static/media/Weather-App.f1d8368212637358c203.png",
+    "static/media/banner7.jpg": "/react-portfolio-john/static/media/banner7.14bca94ef19a1e9b5c0b.jpg",
+    "static/media/seflieforport1.jpg": "/react-portfolio-john/static/media/seflieforport1.1ee0f25f58a1f80da6a4.jpg",
+    "static/media/What-Will-I-Have-For-Dinner.png": "/react-portfolio-john/static/media/What-Will-I-Have-For-Dinner.1251620f926032fc9e69.png",
+    "static/media/Password-Generator.png": "/react-portfolio-john/static/media/Password-Generator.c05e4ec0cf72c469ac51.png",
+    "static/media/Coding-Quiz.png": "/react-portfolio-john/static/media/Coding-Quiz.d46d022e4c60eae75d61.png",
+    "index.html": "/react-portfolio-john/index.html",
+    "main.41a91f8c.css.map": "/react-portfolio-john/static/css/main.41a91f8c.css.map",
+    "main.5fce2805.js.map": "/react-portfolio-john/static/js/main.5fce2805.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41a91f8c.css",
+    "static/js/main.5fce2805.js"
+  ]
+}
