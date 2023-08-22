@@ -1,34 +1,45 @@
 import React, { useState, useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
+// ^ importing react and emailjs dependency
 
 const Contact = () => {
+  // taking advantage of react useState and useRef hooks
   const [formState, setFormState] = useState({
     name: "",
     email: "",
     message: "",
   });
-  const [btnText, setBtnText] = useState('Submit');
+  const [btnText, setBtnText] = useState("Submit");
   const form = useRef();
-
+  // listening for changes on the page
   const handleChange = (e) => {
     e.preventDefault();
     setFormState({ ...formState, [e.target.name]: e.target.value });
   };
-
+  // logic for the emailjs form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formState);
-    emailjs.sendForm('service_jodo737', 'template_a2pfvvl', form.current, 'YtZS6VBZXYS4mZd16')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_jodo737",
+        "template_a2pfvvl",
+        form.current,
+        "YtZS6VBZXYS4mZd16"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-          setBtnText('Message Sent!');
+          setBtnText("Message Sent!");
           setTimeout(() => {
-						window.location.reload();
-					}, 3000);
-      }, (error) => {
+            window.location.reload();
+          }, 3000);
+        },
+        (error) => {
           console.log(error.text);
-          setBtnText('Error!');
-      })
+          setBtnText("Error!");
+        }
+      );
   };
 
   return (

@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import Resume from "./Resume";
 import About from "./About";
 import "./style.css";
+// ^ importing style and all page components for ease of use
 
 const Page = ({ currentPage }) => {
   const renderPage = (page) => {

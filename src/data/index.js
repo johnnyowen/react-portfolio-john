@@ -1,3 +1,4 @@
+// project data, adding a project here will automatically add it to projects page
 export const projects = [
   {
     name: "Buonos-Pizza",

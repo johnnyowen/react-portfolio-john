@@ -1,28 +1,19 @@
+/* styles project title links */
 .card-title a {
 	font-size: 2.5rem;
 	font-weight: bold;
-	color: var(--darker);
+	color: var(--black);
+	text-shadow: 0px 0px 5px rgb(255, 255, 255);
 }
-
-.project-info {
-	color: var(--overlayTxt);
-	opacity: 0;
-	transition: all 0.5s ease-in-out;
-}
-
-.project-info:hover {
-	opacity: 1;
-	background-color: var(--overlay);
-}
-
+/* gives card an animation on hover */
 .card {
 	transition: all 0.5s ease-in-out;
 }
-
+/* gives card an animation on hover */
 .card:hover {
 	transform: scale(0.98);
 }
-
+/* fits image on the card */
 .card img {
 	width: 100%;
 	height: 100%;

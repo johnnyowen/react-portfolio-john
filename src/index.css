@@ -1,55 +1,57 @@
+/* global styling */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* root colors */
 :root {
   --lighter: #f3f583;
   --light: #f1ee12;
   --dark: #ad6cf7;
   --darker: #200536;
+  --neon: #09ff01;
+  --white: #fff;
+  --black: #000;
 }
-
+/* sizing the page */
 html,
 body {
   min-height: 100%;
 }
-
+/* styles for everything on out page, like a global style again */
 .wrapper {
   background-color: var(--darker);
   color: var(--light);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.5;
 }
-
+/* sizing for center of page displaying the components */
 main {
   min-height: calc(100vh - 250px);
 }
-
+/* removing predetermined styles from links */
 a {
   text-decoration: none;
 }
-
+/* removing predetermined styles from list items */
 li {
   list-style: none;
 }
-
-a,
-li {
+/* some styling for links */
+a {
   color: var(--light);
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
 }
-a:hover,
-li:hover {
+a:hover {
   opacity: 1;
 }
-
+/* font for headers */
 h1,
 h2,
 h3 {
-  font-family: "Aladin", cursive;
+  font-family: 'Londrina Shadow', cursive;
 }

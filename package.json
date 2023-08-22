@@ -2,6 +2,7 @@
   "name": "react-portfolio-john",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://johnnyowen.github.io/react-portfolio-john",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.17.0",

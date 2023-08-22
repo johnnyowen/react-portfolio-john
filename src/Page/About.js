@@ -1,10 +1,12 @@
 import React from "react";
 import selfie from "../assets/images/seflieforport1.jpg"
-
+// ^ importing react and selfie image
+// simple about me page
 const About = () => {
   return (
     <>
       <div className="d-flex align-items-center">
+        {/* image styled with bootstrap */}
         <img src={selfie} alt="profile" className="img-fluid rounded-circle me-3" width="200"/>
         <p>
           Hello! My name is John Owen but I go by Johnny. This is a portfolio I built for myself using React! 

@@ -1,13 +1,18 @@
+/* styles the title of component page we are switching */
 main h2 {
+  font-size: 3rem;
+}
+/* styles the headers on top of profencey columns */
+.pro {
   font-size: 2.5rem;
 }
 
-/* About */
+/* styling for About */
 .fa-user-circle {
   font-size: 6rem;
 }
 
-/* Resume */
+/* styling for Resume */
 .skills .list-group-item {
   background-color: transparent;
   color: var(--light);

@@ -1,29 +1,24 @@
-header .nav {
-  font-size: 2rem;
-  letter-spacing: 0.05em;
+/* styling the letters of the nav links */
+nav {
+  font-size: 2.25rem;
+  letter-spacing: 0.2rem;
 }
-
-header .nav-link {
+/* styling links themselves */
+nav li {
   text-decoration: none;
-  color: var(--light);
+  color: var(--lighter);
   opacity: 0.6;
-  font-family: 'Aladin', cursive;
+  font-family: "Londrina Shadow", cursive;
   cursor: pointer;
-  text-shadow: 2px 2px 5px rgba(255, 255, 0, 0.4);
+  margin: 10px;
 }
-
-header .nav-link:hover {
+/* style on hover */
+nav li:hover {
   color: var(--light);
   opacity: 1;
 }
-
-header .nav-link:focus {
-  color: var(--dark);
-  cursor: default;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
-}
-header .nav-link:active {
-  color: var(--dark);
-  cursor: default;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+/* style when active, green showed up best on header background on all sizes */
+.active {
+  color: var(--neon);
+  opacity: 1;
 }
