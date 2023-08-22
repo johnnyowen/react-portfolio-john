@@ -30,4 +30,5 @@ If there is any questions feel free to contact me through [GitHub](https://githu
 
 https://johnnyowen.github.io/react-portfolio-john/
 
-![Screenshot 2023-08-21 135636](https://github.com/johnnyowen/react-portfolio-john/assets/127053240/96fb0cd3-9280-4b09-b5cd-dc678eb0e3d6)
+![Screenshot 2023-08-22 111315](https://github.com/johnnyowen/react-portfolio-john/assets/127053240/82a7c146-0291-4590-aaba-b35b332c0d47)
+
