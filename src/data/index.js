@@ -1,6 +1,12 @@
 // project data, adding a project here will automatically add it to projects page
 export const projects = [
   {
+    name: "Buonos-Pizza-Project-3",
+    description: "React/Apollo/Mongoose",
+    link: "https://buonos-pizza-3-a5b81b172f5e.herokuapp.com/",
+    repo: "https://github.com/jeremiahmiranda79/buonos-pizza-3",
+  },
+  {
     name: "Buonos-Pizza",
     description: "Mysql/Handlebars",
     link: "https://buonos-pizza-gilbert-b8cca8c50f8c.herokuapp.com/",
